@@ -1,0 +1,603 @@
+{
+  "config": {
+    "proveedor": "ollama",
+    "modelo": "mistral",
+    "k": 3,
+    "recuperador": "embeddings",
+    "casos": 30
+  },
+  "metricas": {
+    "precision": 0.831,
+    "recall": 0.845,
+    "f1": 0.838,
+    "tp": 49,
+    "fp": 10,
+    "fn": 9,
+    "negaciones_esperadas": 15,
+    "negaciones_detectadas": 2,
+    "falsas_confirmaciones": 1,
+    "respuestas_invalidas": 0,
+    "codigos_inventados": 1,
+    "sugerencias_a_revisar": 11,
+    "errores": 0,
+    "segundos_por_nota": 16.2,
+    "segundos_totales": 485.9
+  },
+  "casos": [
+    {
+      "id": "C01",
+      "esperado_confirmados": [
+        "E11.9",
+        "I10",
+        "R42",
+        "R51"
+      ],
+      "esperado_negados": [
+        "R07.4"
+      ],
+      "pred_confirmados": [
+        "E11.9",
+        "I10",
+        "R42",
+        "R51"
+      ],
+      "pred_negados": [
+        "R07.4"
+      ],
+      "inventados": [
+        "R12.89"
+      ],
+      "respuesta_valida": true,
+      "n_revisar": 1,
+      "segundos": 33.61,
+      "error": null
+    },
+    {
+      "id": "C02",
+      "esperado_confirmados": [
+        "N39.0"
+      ],
+      "esperado_negados": [
+        "R50.9"
+      ],
+      "pred_confirmados": [
+        "N39.0"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 14.01,
+      "error": null
+    },
+    {
+      "id": "C03",
+      "esperado_confirmados": [
+        "J18.9",
+        "R05",
+        "R50.9"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "J18.9",
+        "R50.9"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 15.76,
+      "error": null
+    },
+    {
+      "id": "C04",
+      "esperado_confirmados": [
+        "K35.8",
+        "R11"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "K35.8",
+        "R11"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 17.09,
+      "error": null
+    },
+    {
+      "id": "C05",
+      "esperado_confirmados": [
+        "A09",
+        "E86",
+        "R11"
+      ],
+      "esperado_negados": [
+        "A00.9"
+      ],
+      "pred_confirmados": [
+        "E66.9",
+        "K59.0",
+        "R11"
+      ],
+      "pred_negados": [
+        "A09"
+      ],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 2,
+      "segundos": 21.13,
+      "error": null
+    },
+    {
+      "id": "C06",
+      "esperado_confirmados": [
+        "J44.9",
+        "R05",
+        "R06.0"
+      ],
+      "esperado_negados": [
+        "R50.9"
+      ],
+      "pred_confirmados": [
+        "J44.9",
+        "R05",
+        "R06.0",
+        "Z00.0"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 2,
+      "segundos": 21.35,
+      "error": null
+    },
+    {
+      "id": "C07",
+      "esperado_confirmados": [
+        "I21.9"
+      ],
+      "esperado_negados": [
+        "E11.9"
+      ],
+      "pred_confirmados": [
+        "I21.9"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 14.95,
+      "error": null
+    },
+    {
+      "id": "C08",
+      "esperado_confirmados": [
+        "G43.9",
+        "R11"
+      ],
+      "esperado_negados": [
+        "R50.9"
+      ],
+      "pred_confirmados": [
+        "R11",
+        "R51"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 18.27,
+      "error": null
+    },
+    {
+      "id": "C09",
+      "esperado_confirmados": [
+        "A90",
+        "M79.1",
+        "R50.9"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "A90",
+        "M79.1",
+        "R50.9"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 17.71,
+      "error": null
+    },
+    {
+      "id": "C10",
+      "esperado_confirmados": [
+        "I48.9",
+        "I50.9",
+        "R06.0"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "I48.9",
+        "I50.9",
+        "R06.0",
+        "S93.4"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 20.59,
+      "error": null
+    },
+    {
+      "id": "C11",
+      "esperado_confirmados": [
+        "E03.9",
+        "E66.9"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "E03.9",
+        "E66.9"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 16.56,
+      "error": null
+    },
+    {
+      "id": "C12",
+      "esperado_confirmados": [
+        "M54.5"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "M54.5"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 12.17,
+      "error": null
+    },
+    {
+      "id": "C13",
+      "esperado_confirmados": [
+        "J03.9",
+        "R50.9"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "J03.9"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 12.05,
+      "error": null
+    },
+    {
+      "id": "C14",
+      "esperado_confirmados": [
+        "E11.9"
+      ],
+      "esperado_negados": [
+        "N18.9"
+      ],
+      "pred_confirmados": [
+        "E11.9",
+        "R73.9"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 20.39,
+      "error": null
+    },
+    {
+      "id": "C15",
+      "esperado_confirmados": [
+        "J30.4"
+      ],
+      "esperado_negados": [
+        "J45.9"
+      ],
+      "pred_confirmados": [
+        "J30.4"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 12.36,
+      "error": null
+    },
+    {
+      "id": "C16",
+      "esperado_confirmados": [
+        "E78.5",
+        "I10"
+      ],
+      "esperado_negados": [
+        "I20.9"
+      ],
+      "pred_confirmados": [
+        "E78.5",
+        "I10"
+      ],
+      "pred_negados": [
+        "I20.9"
+      ],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 20.59,
+      "error": null
+    },
+    {
+      "id": "C17",
+      "esperado_confirmados": [
+        "R05",
+        "R50.9",
+        "U07.1"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "R05",
+        "R50.9",
+        "U07.1"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 19.32,
+      "error": null
+    },
+    {
+      "id": "C18",
+      "esperado_confirmados": [
+        "K29.7"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "K29.7",
+        "K52.9",
+        "R10.4"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 2,
+      "segundos": 19.98,
+      "error": null
+    },
+    {
+      "id": "C19",
+      "esperado_confirmados": [
+        "M17.9"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "M17.9"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 12.4,
+      "error": null
+    },
+    {
+      "id": "C20",
+      "esperado_confirmados": [
+        "K80.2"
+      ],
+      "esperado_negados": [
+        "K81.0"
+      ],
+      "pred_confirmados": [
+        "K81.0"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 1,
+      "segundos": 11.63,
+      "error": null
+    },
+    {
+      "id": "C21",
+      "esperado_confirmados": [
+        "H66.9",
+        "R50.9"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "H66.9",
+        "R50.9"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 1,
+      "segundos": 14.53,
+      "error": null
+    },
+    {
+      "id": "C22",
+      "esperado_confirmados": [
+        "F41.9"
+      ],
+      "esperado_negados": [
+        "F32.9"
+      ],
+      "pred_confirmados": [
+        "F41.9"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 10.46,
+      "error": null
+    },
+    {
+      "id": "C23",
+      "esperado_confirmados": [
+        "D50.9",
+        "I10",
+        "N18.9"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "D50.9",
+        "N18.9"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 1,
+      "segundos": 17.52,
+      "error": null
+    },
+    {
+      "id": "C24",
+      "esperado_confirmados": [
+        "S93.4"
+      ],
+      "esperado_negados": [
+        "S52.5"
+      ],
+      "pred_confirmados": [
+        "S93.4"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 1,
+      "segundos": 11.83,
+      "error": null
+    },
+    {
+      "id": "C25",
+      "esperado_confirmados": [
+        "N40"
+      ],
+      "esperado_negados": [
+        "N39.0"
+      ],
+      "pred_confirmados": [
+        "N40"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 11.82,
+      "error": null
+    },
+    {
+      "id": "C26",
+      "esperado_confirmados": [
+        "A09",
+        "R50.9"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "A09",
+        "R50.9"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 13.58,
+      "error": null
+    },
+    {
+      "id": "C27",
+      "esperado_confirmados": [
+        "I48.9",
+        "R55"
+      ],
+      "esperado_negados": [
+        "R07.4"
+      ],
+      "pred_confirmados": [
+        "I48.9"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 10.64,
+      "error": null
+    },
+    {
+      "id": "C28",
+      "esperado_confirmados": [
+        "I10",
+        "I63.9"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "I10",
+        "I63.9"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 13.87,
+      "error": null
+    },
+    {
+      "id": "C29",
+      "esperado_confirmados": [
+        "A15.0",
+        "R05"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "A15.0",
+        "E86",
+        "R05"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 17.64,
+      "error": null
+    },
+    {
+      "id": "C30",
+      "esperado_confirmados": [
+        "J45.9",
+        "R06.0"
+      ],
+      "esperado_negados": [
+        "R50.9"
+      ],
+      "pred_confirmados": [
+        "J45.9"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 12.08,
+      "error": null
+    }
+  ]
+}

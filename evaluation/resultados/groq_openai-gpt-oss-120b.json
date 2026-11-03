@@ -1,0 +1,618 @@
+{
+  "config": {
+    "proveedor": "groq",
+    "modelo": "openai/gpt-oss-120b",
+    "k": 3,
+    "recuperador": "embeddings",
+    "casos": 30
+  },
+  "metricas": {
+    "precision": 0.934,
+    "recall": 0.983,
+    "f1": 0.958,
+    "tp": 57,
+    "fp": 4,
+    "fn": 1,
+    "negaciones_esperadas": 15,
+    "negaciones_detectadas": 10,
+    "falsas_confirmaciones": 0,
+    "respuestas_invalidas": 0,
+    "codigos_inventados": 0,
+    "sugerencias_a_revisar": 0,
+    "errores": 0,
+    "segundos_por_nota": 5.83,
+    "segundos_totales": 174.8
+  },
+  "casos": [
+    {
+      "id": "C01",
+      "esperado_confirmados": [
+        "E11.9",
+        "I10",
+        "R42",
+        "R51"
+      ],
+      "esperado_negados": [
+        "R07.4"
+      ],
+      "pred_confirmados": [
+        "E11.9",
+        "I10",
+        "R42",
+        "R51"
+      ],
+      "pred_negados": [
+        "R07.4"
+      ],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 3.02,
+      "error": null
+    },
+    {
+      "id": "C02",
+      "esperado_confirmados": [
+        "N39.0"
+      ],
+      "esperado_negados": [
+        "R50.9"
+      ],
+      "pred_confirmados": [
+        "N39.0"
+      ],
+      "pred_negados": [
+        "R50.9"
+      ],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 1.93,
+      "error": null
+    },
+    {
+      "id": "C03",
+      "esperado_confirmados": [
+        "J18.9",
+        "R05",
+        "R50.9"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "J18.9",
+        "R05",
+        "R50.9"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 1.44,
+      "error": null
+    },
+    {
+      "id": "C04",
+      "esperado_confirmados": [
+        "K35.8",
+        "R11"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "K35.8",
+        "R10.4",
+        "R11"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 1.61,
+      "error": null
+    },
+    {
+      "id": "C05",
+      "esperado_confirmados": [
+        "A09",
+        "E86",
+        "R11"
+      ],
+      "esperado_negados": [
+        "A00.9"
+      ],
+      "pred_confirmados": [
+        "A09",
+        "E86",
+        "R11"
+      ],
+      "pred_negados": [
+        "A00.9"
+      ],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 1.98,
+      "error": null
+    },
+    {
+      "id": "C06",
+      "esperado_confirmados": [
+        "J44.9",
+        "R05",
+        "R06.0"
+      ],
+      "esperado_negados": [
+        "R50.9"
+      ],
+      "pred_confirmados": [
+        "J44.9",
+        "R05",
+        "R06.0"
+      ],
+      "pred_negados": [
+        "R50.9"
+      ],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 1.74,
+      "error": null
+    },
+    {
+      "id": "C07",
+      "esperado_confirmados": [
+        "I21.9"
+      ],
+      "esperado_negados": [
+        "E11.9"
+      ],
+      "pred_confirmados": [
+        "I21.9"
+      ],
+      "pred_negados": [
+        "E10.9",
+        "E11.9"
+      ],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 2.36,
+      "error": null
+    },
+    {
+      "id": "C08",
+      "esperado_confirmados": [
+        "G43.9",
+        "R11"
+      ],
+      "esperado_negados": [
+        "R50.9"
+      ],
+      "pred_confirmados": [
+        "G43.9",
+        "R11",
+        "R51"
+      ],
+      "pred_negados": [
+        "R50.9"
+      ],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 7.6,
+      "error": null
+    },
+    {
+      "id": "C09",
+      "esperado_confirmados": [
+        "A90",
+        "M79.1",
+        "R50.9"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "A90",
+        "M79.1",
+        "R50.9"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 7.76,
+      "error": null
+    },
+    {
+      "id": "C10",
+      "esperado_confirmados": [
+        "I48.9",
+        "I50.9",
+        "R06.0"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "I48.9",
+        "I50.9",
+        "R06.0"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 7.16,
+      "error": null
+    },
+    {
+      "id": "C11",
+      "esperado_confirmados": [
+        "E03.9",
+        "E66.9"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "E03.9",
+        "E66.9"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 7.11,
+      "error": null
+    },
+    {
+      "id": "C12",
+      "esperado_confirmados": [
+        "M54.5"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "M54.5"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 7.13,
+      "error": null
+    },
+    {
+      "id": "C13",
+      "esperado_confirmados": [
+        "J03.9",
+        "R50.9"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "J03.9",
+        "R50.9"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 2.22,
+      "error": null
+    },
+    {
+      "id": "C14",
+      "esperado_confirmados": [
+        "E11.9"
+      ],
+      "esperado_negados": [
+        "N18.9"
+      ],
+      "pred_confirmados": [
+        "E11.9",
+        "R73.9"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 19.07,
+      "error": null
+    },
+    {
+      "id": "C15",
+      "esperado_confirmados": [
+        "J30.4"
+      ],
+      "esperado_negados": [
+        "J45.9"
+      ],
+      "pred_confirmados": [
+        "J30.4"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 1.85,
+      "error": null
+    },
+    {
+      "id": "C16",
+      "esperado_confirmados": [
+        "E78.5",
+        "I10"
+      ],
+      "esperado_negados": [
+        "I20.9"
+      ],
+      "pred_confirmados": [
+        "E78.5",
+        "I10"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 2.75,
+      "error": null
+    },
+    {
+      "id": "C17",
+      "esperado_confirmados": [
+        "R05",
+        "R50.9",
+        "U07.1"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "R05",
+        "R50.9",
+        "U07.1"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 8.2,
+      "error": null
+    },
+    {
+      "id": "C18",
+      "esperado_confirmados": [
+        "K29.7"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "K29.7",
+        "R10.4"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 9.08,
+      "error": null
+    },
+    {
+      "id": "C19",
+      "esperado_confirmados": [
+        "M17.9"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "M17.9"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 7.1,
+      "error": null
+    },
+    {
+      "id": "C20",
+      "esperado_confirmados": [
+        "K80.2"
+      ],
+      "esperado_negados": [
+        "K81.0"
+      ],
+      "pred_confirmados": [
+        "K80.2"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 8.6,
+      "error": null
+    },
+    {
+      "id": "C21",
+      "esperado_confirmados": [
+        "H66.9",
+        "R50.9"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "H66.9",
+        "R50.9"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 7.06,
+      "error": null
+    },
+    {
+      "id": "C22",
+      "esperado_confirmados": [
+        "F41.9"
+      ],
+      "esperado_negados": [
+        "F32.9"
+      ],
+      "pred_confirmados": [
+        "F41.9"
+      ],
+      "pred_negados": [
+        "F32.9"
+      ],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 2.16,
+      "error": null
+    },
+    {
+      "id": "C23",
+      "esperado_confirmados": [
+        "D50.9",
+        "I10",
+        "N18.9"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "D50.9",
+        "I10",
+        "N18.9"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 8.29,
+      "error": null
+    },
+    {
+      "id": "C24",
+      "esperado_confirmados": [
+        "S93.4"
+      ],
+      "esperado_negados": [
+        "S52.5"
+      ],
+      "pred_confirmados": [
+        "S93.4"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 8.1,
+      "error": null
+    },
+    {
+      "id": "C25",
+      "esperado_confirmados": [
+        "N40"
+      ],
+      "esperado_negados": [
+        "N39.0"
+      ],
+      "pred_confirmados": [
+        "N40"
+      ],
+      "pred_negados": [
+        "N39.0"
+      ],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 7.77,
+      "error": null
+    },
+    {
+      "id": "C26",
+      "esperado_confirmados": [
+        "A09",
+        "R50.9"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "A09",
+        "R50.9"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 1.98,
+      "error": null
+    },
+    {
+      "id": "C27",
+      "esperado_confirmados": [
+        "I48.9",
+        "R55"
+      ],
+      "esperado_negados": [
+        "R07.4"
+      ],
+      "pred_confirmados": [
+        "I48.9"
+      ],
+      "pred_negados": [
+        "R07.4"
+      ],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 7.44,
+      "error": null
+    },
+    {
+      "id": "C28",
+      "esperado_confirmados": [
+        "I10",
+        "I63.9"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "I10",
+        "I63.9"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 7.49,
+      "error": null
+    },
+    {
+      "id": "C29",
+      "esperado_confirmados": [
+        "A15.0",
+        "R05"
+      ],
+      "esperado_negados": [],
+      "pred_confirmados": [
+        "A15.0",
+        "R05"
+      ],
+      "pred_negados": [],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 7.26,
+      "error": null
+    },
+    {
+      "id": "C30",
+      "esperado_confirmados": [
+        "J45.9",
+        "R06.0"
+      ],
+      "esperado_negados": [
+        "R50.9"
+      ],
+      "pred_confirmados": [
+        "J45.9",
+        "R06.0"
+      ],
+      "pred_negados": [
+        "R50.9"
+      ],
+      "inventados": [],
+      "respuesta_valida": true,
+      "n_revisar": 0,
+      "segundos": 7.56,
+      "error": null
+    }
+  ]
+}

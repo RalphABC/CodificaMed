@@ -1,0 +1,16 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors and system
+.vscode/
+.idea/
+.DS_Store
+
+# Temporary results
+*.tmp

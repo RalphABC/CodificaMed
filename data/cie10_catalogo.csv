@@ -1,0 +1,79 @@
+codigo,descripcion,sinonimos
+I10,Hipertensión esencial (primaria),HTA;hipertensión arterial;presión alta
+I20.9,"Angina de pecho, no especificada",angina;cardiopatía isquémica
+I21.9,"Infarto agudo de miocardio, sin otra especificación",IAM;infarto de miocardio;ataque cardíaco
+I48.9,"Fibrilación y aleteo auricular, no especificados",FA;fibrilación auricular
+I50.9,"Insuficiencia cardíaca, no especificada",ICC;falla cardíaca;insuficiencia cardiaca
+I63.9,"Infarto cerebral, no especificado",ACV isquémico;ictus;stroke
+I26.9,Embolia pulmonar sin mención de corazón pulmonar agudo,TEP;tromboembolismo pulmonar
+I83.9,Várices de los miembros inferiores sin úlcera ni inflamación,várices;insuficiencia venosa
+E10.9,Diabetes mellitus tipo 1 sin complicaciones,DM1;diabetes insulinodependiente
+E11.9,Diabetes mellitus tipo 2 sin complicaciones,DM2;diabetes tipo 2;diabetes mellitus
+E78.5,"Hiperlipidemia, no especificada",dislipidemia;colesterol alto;hipercolesterolemia
+E66.9,"Obesidad, no especificada",obesidad;sobrepeso severo
+E03.9,"Hipotiroidismo, no especificado",hipotiroidismo;tiroides hipoactiva
+E86,Depleción del volumen,deshidratación
+R73.9,"Hiperglucemia, no especificada",glucemia elevada;azúcar alta
+R03.0,Lectura elevada de presión arterial sin diagnóstico de hipertensión,PA elevada
+D64.9,"Anemia, no especificada",anemia
+D50.9,"Anemia por deficiencia de hierro, sin otra especificación",anemia ferropénica;déficit de hierro
+N18.9,"Enfermedad renal crónica, no especificada",ERC;insuficiencia renal crónica
+N39.0,"Infección de vías urinarias, sitio no especificado",ITU;IVU;infección urinaria;cistitis
+N20.0,Cálculo del riñón,litiasis renal;cólico renal;piedra en el riñón
+N40,Hiperplasia de la próstata,HPB;hiperplasia prostática;próstata agrandada
+N76.0,Vaginitis aguda,vaginitis
+J00,Rinofaringitis aguda (resfriado común),resfriado;catarro
+J01.9,"Sinusitis aguda, no especificada",sinusitis
+J02.9,"Faringitis aguda, no especificada",faringitis;dolor de garganta
+J03.9,"Amigdalitis aguda, no especificada",amigdalitis;anginas
+J06.9,"Infección aguda de las vías respiratorias superiores, no especificada",IRA alta;infección respiratoria alta
+J18.9,"Neumonía, no especificada",neumonía;NAC;neumonía adquirida en la comunidad
+J20.9,"Bronquitis aguda, no especificada",bronquitis
+J30.4,"Rinitis alérgica, no especificada",rinitis alérgica;alergia nasal
+J44.9,"Enfermedad pulmonar obstructiva crónica, no especificada",EPOC;bronquitis crónica;enfisema
+J45.9,"Asma, no especificada",asma;crisis asmática;sibilancias
+A00.9,"Cólera, no especificado",cólera
+A09,Diarrea y gastroenteritis de presunto origen infeccioso,gastroenteritis;EDA;diarrea
+A15.0,Tuberculosis pulmonar,TB pulmonar;TBC;tuberculosis
+A90,Dengue clásico,dengue;fiebre del dengue
+A91,Fiebre del dengue hemorrágico,dengue hemorrágico;dengue grave
+B34.9,"Infección viral, no especificada",viriasis;síndrome viral
+B54,Paludismo (malaria) no especificado,malaria;paludismo
+U07.1,"COVID-19, virus identificado",COVID;coronavirus;SARS-CoV-2
+K21.9,Enfermedad por reflujo gastroesofágico sin esofagitis,ERGE;reflujo;acidez
+K29.7,"Gastritis, no especificada",gastritis;dolor epigástrico
+K35.8,"Apendicitis aguda, otra y la no especificada",apendicitis;apendicitis aguda
+K40.9,Hernia inguinal unilateral o no especificada sin obstrucción ni gangrena,hernia inguinal
+K52.9,"Gastroenteritis y colitis no infecciosas, sin otra especificación",colitis
+K59.0,Estreñimiento,constipación
+K74.6,Otras cirrosis del hígado,cirrosis hepática
+K80.2,Cálculo de la vesícula biliar sin colecistitis,colelitiasis;litiasis vesicular;cálculos biliares
+K81.0,Colecistitis aguda,colecistitis
+R50.9,"Fiebre, no especificada",fiebre;alza térmica;febril
+R51,Cefalea,dolor de cabeza;cefalea
+R10.4,Otros dolores abdominales y los no especificados,dolor abd;dolor abdominal;abdominalgia
+R07.4,"Dolor en el pecho, no especificado",dolor torácico;dolor precordial;dolor de pecho
+R05,Tos,tos seca;tos productiva;tos persistente
+R11,Náusea y vómito,náuseas;vómitos;emesis
+R42,Mareo y desvanecimiento,mareo;vértigo
+R06.0,Disnea,dificultad respiratoria;falta de aire;ahogo
+R00.0,"Taquicardia, no especificada",taquicardia;palpitaciones
+R55,Síncope y colapso,síncope;desmayo;pérdida de conciencia
+M54.5,Lumbago (dolor lumbar bajo),lumbalgia;dolor lumbar
+M79.1,Mialgia,dolor muscular;mialgias
+M17.9,"Gonartrosis, no especificada",artrosis de rodilla;gonartrosis
+M19.9,"Artrosis, no especificada",artrosis
+M10.9,"Gota, no especificada",gota;ácido úrico elevado
+G43.9,"Migraña, no especificada",migraña;jaqueca
+G40.9,"Epilepsia, no especificada",epilepsia;convulsiones
+F32.9,"Episodio depresivo, no especificado",depresión;episodio depresivo
+F41.9,"Trastorno de ansiedad, no especificado",ansiedad;trastorno de ansiedad
+F41.1,Trastorno de ansiedad generalizada,TAG;ansiedad generalizada
+L20.9,"Dermatitis atópica, no especificada",eccema;dermatitis atópica
+L30.9,"Dermatitis, no especificada",dermatitis
+H10.9,"Conjuntivitis, no especificada",conjuntivitis;ojo rojo
+H66.9,"Otitis media, no especificada",otitis media;otalgia;dolor de oído
+S06.0,Conmoción cerebral,traumatismo craneoencefálico leve;TCE leve
+S52.5,Fractura de la epífisis inferior del radio,fractura de muñeca;fractura de radio distal
+S93.4,Esguince y torcedura del tobillo,esguince de tobillo;torcedura de tobillo
+Z00.0,Examen médico general,control de rutina;chequeo general
